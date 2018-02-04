@@ -56,5 +56,7 @@ Client configuration file is also supported,create a file named tinyfw.json, of 
 then just execute:
 
 > ./server -list
+
 > ./server -add -port 22
+
 > ./server -del -port 22
