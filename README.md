@@ -4,6 +4,13 @@ Tinyfw is a ~tiny firewall~ tiny tool for simply using to manage allowed ports o
 
 > iptables -A INPUT -j DROP && iptables -P INPUT DROP
 
+* Build tinyfw
+
+> go get -u github.com/git1h/tinyfw/...
+
+> go build github.com/git1h/tinyfw/server
+
+> go build github.com/git1h/tinyfw/client
 
 * Create a CA key and the certificate
 
